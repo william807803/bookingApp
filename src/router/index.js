@@ -80,7 +80,7 @@ const routes = [
   },
 ];
 
-const router = new Router({ mode: "history", routes });
+const router = new Router({ mode: "hash", routes });
 
 // this routine will ensure that any pages marked as `auth` in the `meta` section are
 // protected from access by unauthenticated users.
